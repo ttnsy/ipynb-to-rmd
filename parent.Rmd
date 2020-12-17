@@ -1,0 +1,37 @@
+---  
+title: "PUT TITLE HERE"
+subtitle: "PUT SUBTITLE HERE"
+author: "Team Algoritma"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    number_sections: true
+    theme: flatly
+    highlight: tango
+  pdf_document:
+    latex_engine: xelatex
+    toc: yes
+    toc_depth: 3
+---
+
+\newpage
+
+```{r child = 'Rmd/1_first_Rmarkdown.Rmd'}
+```
+
+```{r child = 'Rmd/2_second_Rmarkdown.Rmd'}
+```
+
+```{r child = 'Rmd/3_third_Rmarkdown.Rmd'}
+```
+
+```{r, include=FALSE, echo=FALSE}
+# Run following code lines to generate above chunks automatically
+
+# rmd <- list.files(pattern = '*.Rmd', recursive = T)
+# chunks <- paste0("```{r child = '", rmd, "'}\n```\n")
+# cat(chunks, sep = '\n')
+```
+
