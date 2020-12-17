@@ -13,7 +13,7 @@ Please follow the formatting below:
 ![](img/heading.png)
 
 2. Bullets
-  Please add breaks after paragraph and before bullet! Example:
+  - Please add breaks after paragraph and before bullet! Example:
 
 ![](img/bullets.png)
 
