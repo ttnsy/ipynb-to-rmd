@@ -16,6 +16,9 @@ Please follow the formatting below:
   Please add breaks after paragraph and before bullet! Example:
 
 ![](img/bullets.png)
+
+3. Others:
+  - Do **not** use `%matplotlib inline`
   
 ## How to Use
 
