@@ -1,6 +1,6 @@
 *Disclaimer:
 
-The script is developed from RStudio Team's `convert_ipynb` [code](https://rmarkdown.rstudio.com/docs/reference/convert_ipynb.html). This simple app is developed for personal purpose to ease the process of converting multiple `ipynb` into a tidy pdf.
+The script is developed from RStudio Team's `convert_ipynb` [code](https://rmarkdown.rstudio.com/docs/reference/convert_ipynb.html). This simple app is developed for my personal purpose to ease the process of converting multiple `ipynb` into a tidy pdf.
 
 ## Markdown Formatting
 
