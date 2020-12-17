@@ -1,5 +1,0 @@
-"2","ImportError: cannot import name 'plot_confusion_matrix' from 'sklearn.metrics' (/home/tanesya/anaconda3/lib/python3.7/site-packages/sklearn/metrics/__init__.py)
-
-Detailed traceback: 
-  File ""<string>"", line 1, in <module>
-"
