@@ -1,4 +1,4 @@
-source('assets/jupyter.R')
+source('jupyter.R')
 
 to_Rmd <- function(path_input = here::here('documents/'),
                    path_output = here::here('documents/')){
