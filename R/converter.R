@@ -1,7 +1,7 @@
 source('R/jupyter.R')
 
-to_Rmd <- function(path_input = here::here('documents/'),
-                   path_output = here::here('documents/')){
+to_Rmd <- function(path_input = ('documents/'),
+                   path_output = ('documents/')){
   filenames <- gsub(
     "\\.ipynb$","",
     list.files(path_input, pattern = "\\.ipynb$")
@@ -13,7 +13,5 @@ to_Rmd <- function(path_input = here::here('documents/'),
     xfun::file_string(nb_rmd)
   }
 }
-
-to_Rmd()
 
 
