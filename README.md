@@ -8,7 +8,7 @@ The script is developed from RStudio Team's `convert_ipynb` [code](https://rmark
 
 1. Open the R project
 
-2. In your R console, run `to_Rmd()` function from `R/converter.R` script. You can define your prefered input/output directory but the default location is in `/documents/` (input & output).
+2. In your R console, run `to_Rmd()` function from `R/converter.R` script. You can define your prefered input/output directory but the **default location** is in `/documents/` folder of this repository (input & output).
  
 ```r
 source('R/converter.R')
