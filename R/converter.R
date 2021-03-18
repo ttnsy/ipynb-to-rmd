@@ -1,7 +1,7 @@
 source('R/jupyter.R')
 
-to_Rmd <- function(path_input = ('documents/'),
-                   path_output = ('documents/')){
+to_Rmd <- function(path_input = 'documents/',
+                   path_output = 'documents/'){
   filenames <- gsub(
     "\\.ipynb$","",
     list.files(path_input, pattern = "\\.ipynb$")
