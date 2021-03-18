@@ -17,7 +17,7 @@ to_Rmd()
 
 ### Step 2. Compile your pdf
 
-1. Make sure all files (including images attached, related script, etc.) related to the notebook are included in `/documents` 
+1. Make sure all files (including images attached, related script, etc.) related to the notebook are included in `/documents`  (or, if you change the input/output directory, make sure it's in the same location of your Rmd).
 2. Open `parent.Rmd`
 3. Adjust YAML options & chunk titles
 4. Knit it to pdf
